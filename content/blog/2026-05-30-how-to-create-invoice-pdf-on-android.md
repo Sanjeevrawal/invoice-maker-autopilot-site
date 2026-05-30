@@ -3,7 +3,7 @@ title: How to create invoice PDF on Android
 description: Learn invoice PDF on Android with a practical Android PDF workflow for
   service businesses.
 date: '2026-05-30'
-draft: true
+draft: false
 tags:
 - invoice maker
 - Android invoice
