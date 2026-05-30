@@ -1,3 +1,4 @@
-# Invoice Maker App
-
-Create PDF invoices, estimates, quotes, and receipts on Android.
+---
+title: "Doclira"
+description: "Doclira is an Android invoice, estimate, quote, and receipt maker for contractors, freelancers, and small service businesses."
+---

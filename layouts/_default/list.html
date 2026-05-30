@@ -1,1 +1,44 @@
-{{ define "main" }}<h1>{{ .Title }}</h1>{{ .Content }}<ul>{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>{{ end }}
+{{ define "main" }}
+<section class="page-hero small">
+  <p class="eyebrow">{{ if eq .Section "blog" }}Doclira guides{{ else }}Resources{{ end }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+  {{ .Content }}
+</section>
+
+{{ $pages := .Pages.ByDate.Reverse }}
+{{ if eq .Section "blog" }}
+  {{ $paginator := .Paginate $pages }}
+  <section class="section">
+    <div class="post-grid">
+      {{ range $paginator.Pages }}
+        <a class="post-card" href="{{ .RelPermalink }}">
+          {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+          <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+          <h2>{{ .Title }}</h2>
+          <p>{{ .Params.description | default .Summary }}</p>
+        </a>
+      {{ end }}
+    </div>
+    {{ if gt $paginator.TotalPages 1 }}
+      <nav class="pagination" aria-label="Pagination">
+        {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">Newer</a>{{ end }}
+        <span>Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+        {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">Older</a>{{ end }}
+      </nav>
+    {{ end }}
+  </section>
+{{ else }}
+  <section class="section">
+    <div class="feature-grid">
+      {{ range $pages }}
+        <a class="feature-card" href="{{ .RelPermalink }}">
+          <span>{{ .Date.Format "2006" }}</span>
+          <h2>{{ .Title }}</h2>
+          <p>{{ .Params.description | default .Summary }}</p>
+        </a>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
+{{ end }}

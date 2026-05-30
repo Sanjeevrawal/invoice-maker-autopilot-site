@@ -1,1 +1,55 @@
-{{ define "main" }}<article><h1>{{ .Title }}</h1>{{ .Content }}</article>{{ end }}
+{{ define "main" }}
+{{ if eq .Section "blog" }}
+<article class="article-shell">
+  <header class="article-hero">
+    <p class="eyebrow">Doclira guide</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+    <div class="article-meta">
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      {{ with .Params.primary_keyword }}<span>{{ . }}</span>{{ end }}
+    </div>
+    {{ with .Params.image }}<img class="article-image" src="{{ . | relURL }}" alt="" loading="eager">{{ end }}
+  </header>
+  <div class="article-layout">
+    <aside class="article-aside">
+      <div class="toc-box">
+        <strong>In this guide</strong>
+        {{ .TableOfContents }}
+      </div>
+      <div class="mini-cta">
+        <img src="{{ "images/doclira-icon.png" | relURL }}" alt="" width="44" height="44">
+        <strong>Doclira</strong>
+        <span>PDF invoices, estimates, quotes, and receipts on Android.</span>
+        <a href="{{ "download/" | relURL }}">Download</a>
+      </div>
+    </aside>
+    <div class="article-content">
+      {{ .Content }}
+      <div class="related-block">
+        <h2>Related Doclira pages</h2>
+        <div class="related-links">
+          <a href="{{ "invoice-maker/" | relURL }}">Invoice maker</a>
+          <a href="{{ "estimate-maker/" | relURL }}">Estimate maker</a>
+          <a href="{{ "receipt-maker/" | relURL }}">Receipt maker</a>
+          <a href="{{ "use-cases/" | relURL }}">Use cases</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+{{ else }}
+<section class="page-hero">
+  <p class="eyebrow">Doclira</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+  <div class="hero-actions">
+    <a class="button primary" href="{{ "download/" | relURL }}">Download on Google Play</a>
+    <a class="button secondary" href="{{ "blog/" | relURL }}">Read guides</a>
+  </div>
+</section>
+<section class="content-page">
+  {{ .Content }}
+</section>
+{{ end }}
+{{ end }}

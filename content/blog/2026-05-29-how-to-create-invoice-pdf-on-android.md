@@ -1,4 +1,4 @@
----
+﻿---
 title: How to create invoice PDF on Android
 description: Learn invoice PDF on Android with a practical Android PDF workflow for
   service businesses.
@@ -9,7 +9,7 @@ tags:
 - Android invoice
 - PDF invoice
 primary_keyword: invoice PDF on Android
-app_cta_url: https://play.google.com/store/apps/details?id=com.example.invoiceapp
+app_cta_url: https://play.google.com/store/apps/details?id=com.doclira.invoice
 image: /images/generated/how-to-create-invoice-pdf-on-android.png
 ---
 
@@ -19,7 +19,7 @@ image: /images/generated/how-to-create-invoice-pdf-on-android.png
 
 You can create a clear PDF invoice, estimate, quote, or receipt on an Android phone by entering the client details, adding service line items, checking the totals, exporting the document as a PDF, and sharing it through WhatsApp, email, or the Android share sheet. This workflow is useful when you finish a job away from a desk and need to send a professional document before the details are forgotten.
 
-This guide is written for a freelancer who wants a simple mobile workflow. It uses the approved features of Invoice Maker App: create invoices, estimates, quotes, and receipts; save clients; save services or items; export PDFs; share through compatible Android apps; track paid and unpaid documents; work offline; and use basic features without login.
+This guide is written for a freelancer who wants a simple mobile workflow. It uses the approved features of Doclira: create invoices, estimates, quotes, and receipts; save clients; save services or items; export PDFs; share through compatible Android apps; track paid and unpaid documents; work offline; and use basic features without login.
 
 ## Who this is for
 
@@ -89,4 +89,5 @@ No login is required for basic use, based on the approved app facts. If you add 
 
 ## Final CTA
 
-Download Invoice Maker App from Google Play when you want a simple Android workflow for creating PDF invoices, estimates, quotes, and receipts. Use it to keep client details, service lines, PDF exports, sharing, and paid or unpaid status in one practical mobile process.
+Download Doclira from Google Play when you want a simple Android workflow for creating PDF invoices, estimates, quotes, and receipts. Use it to keep client details, service lines, PDF exports, sharing, and paid or unpaid status in one practical mobile process.
+

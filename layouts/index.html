@@ -1,1 +1,127 @@
-{{ define "main" }}{{ .Content }}<p><a class="button" href="/download/">Download on Google Play</a></p>{{ end }}
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Offline Android invoice maker</p>
+    <h1>Doclira turns service work into clean PDF invoices, estimates, quotes, and receipts.</h1>
+    <p class="hero-lede">Built for contractors, freelancers, cleaners, electricians, plumbers, mechanics, tutors, photographers, and small service teams who need a simple document workflow on their phone.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="{{ "download/" | relURL }}">Download on Google Play</a>
+      <a class="button secondary" href="{{ "features/" | relURL }}">Explore features</a>
+    </div>
+    <div class="trust-strip" aria-label="Doclira highlights">
+      <span>PDF export</span>
+      <span>Works offline</span>
+      <span>No login for basic use</span>
+    </div>
+  </div>
+  <div class="hero-visual" aria-label="Doclira app preview">
+    <div class="phone-shell">
+      <div class="phone-top">
+        <img src="{{ "images/doclira-icon.png" | relURL }}" alt="" width="44" height="44">
+        <div>
+          <strong>Doclira</strong>
+          <span>Invoice Maker PDF</span>
+        </div>
+      </div>
+      <div class="invoice-preview">
+        <span class="doc-label">Invoice</span>
+        <h2>Service Job #1042</h2>
+        <div class="line"><span>Labor charges</span><strong>2 hrs</strong></div>
+        <div class="line"><span>Material supplied</span><strong>1 set</strong></div>
+        <div class="line total"><span>Total</span><strong>PDF ready</strong></div>
+      </div>
+      <div class="phone-actions">
+        <span>Save</span>
+        <span>Export PDF</span>
+        <span>Share</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section band">
+  <div class="section-heading">
+    <p class="eyebrow">Everything in one field workflow</p>
+    <h2>Make the document you need without opening a laptop.</h2>
+    <p>Doclira keeps everyday billing documents practical: add a client, add service lines, preview the PDF, and share through WhatsApp, email, or the Android share sheet.</p>
+  </div>
+  <div class="feature-grid">
+    <a class="feature-card" href="{{ "invoice-maker/" | relURL }}">
+      <span>01</span>
+      <h3>Invoice Maker</h3>
+      <p>Create professional PDF invoices for completed service work.</p>
+    </a>
+    <a class="feature-card" href="{{ "estimate-maker/" | relURL }}">
+      <span>02</span>
+      <h3>Estimate Maker</h3>
+      <p>Prepare clear estimates before the job starts.</p>
+    </a>
+    <a class="feature-card" href="{{ "quotation-maker/" | relURL }}">
+      <span>03</span>
+      <h3>Quote Maker</h3>
+      <p>Send quote PDFs with service details and notes.</p>
+    </a>
+    <a class="feature-card" href="{{ "receipt-maker/" | relURL }}">
+      <span>04</span>
+      <h3>Receipt Maker</h3>
+      <p>Create receipt PDFs after payment and keep local records.</p>
+    </a>
+  </div>
+</section>
+
+<section class="section workflow">
+  <div class="section-heading compact">
+    <p class="eyebrow">Simple process</p>
+    <h2>From job details to shareable PDF in a clean mobile flow.</h2>
+  </div>
+  <div class="steps">
+    <div><strong>1</strong><h3>Choose document</h3><p>Invoice, estimate, quote, or receipt.</p></div>
+    <div><strong>2</strong><h3>Add details</h3><p>Client, saved items, service lines, notes, and totals.</p></div>
+    <div><strong>3</strong><h3>Export PDF</h3><p>Preview the document and create a professional PDF.</p></div>
+    <div><strong>4</strong><h3>Share and track</h3><p>Send through compatible apps and mark paid or unpaid.</p></div>
+  </div>
+</section>
+
+<section class="section audiences">
+  <div class="section-heading">
+    <p class="eyebrow">Built for service businesses</p>
+    <h2>Useful when the office is your phone.</h2>
+  </div>
+  <div class="audience-grid">
+    <a href="{{ "contractors/" | relURL }}">Contractors</a>
+    <a href="{{ "freelancers/" | relURL }}">Freelancers</a>
+    <a href="{{ "cleaners/" | relURL }}">Cleaners</a>
+    <a href="{{ "electricians-plumbers/" | relURL }}">Electricians & plumbers</a>
+    <a href="{{ "mechanics/" | relURL }}">Mobile mechanics</a>
+    <a href="{{ "tutors-photographers/" | relURL }}">Tutors & photographers</a>
+  </div>
+</section>
+
+<section class="section latest-guides">
+  <div class="section-heading row">
+    <div>
+      <p class="eyebrow">Daily SEO guides</p>
+      <h2>Fresh practical articles for mobile invoicing.</h2>
+    </div>
+    <a class="text-link" href="{{ "blog/" | relURL }}">View all guides</a>
+  </div>
+  <div class="post-grid">
+    {{ range first 3 (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+      <a class="post-card" href="{{ .RelPermalink }}">
+        {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+        <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.description | default .Summary }}</p>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<section class="final-cta">
+  <div>
+    <p class="eyebrow">Ready on Android</p>
+    <h2>Download Doclira and create your next PDF document from your phone.</h2>
+  </div>
+  <a class="button primary" href="{{ "download/" | relURL }}">Get Doclira</a>
+</section>
+{{ end }}
