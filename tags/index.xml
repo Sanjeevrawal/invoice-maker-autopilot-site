@@ -10,6 +10,29 @@
 		
 		
 		
+			<lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Android Invoice</title>
+				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/android-invoice/</link>
+				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/android-invoice/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Invoice Maker</title>
+				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/invoice-maker/</link>
+				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/invoice-maker/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PDF Invoice</title>
+				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/pdf-invoice/</link>
+				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/pdf-invoice/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>
