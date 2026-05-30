@@ -9,10 +9,11 @@ paginate = 12
   description = "Doclira is an Android invoice, estimate, quote, and receipt maker for contractors, freelancers, and small service businesses."
   appName = "Doclira"
   packageName = "com.doclira.invoice"
-  playStoreURL = "https://play.google.com/store/apps/details?id=com.doclira.invoice"
+  playStoreURL = "https://play.google.com/store/apps/details?id=com.doclira.invoice&utm_source=doclira_website&utm_medium=organic_web&utm_campaign=website_download_cta&referrer=utm_source%3Ddoclira_website%26utm_medium%3Dorganic_web%26utm_campaign%3Dwebsite_download_cta"
   supportEmail = ""
   logo = "images/doclira-icon.png"
   ogImage = "images/doclira/banner.png"
+  ga4MeasurementId = ""
 
 [taxonomies]
   tag = "tags"

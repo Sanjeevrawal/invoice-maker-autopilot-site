@@ -9,7 +9,7 @@ tags:
 - Android invoice
 - PDF invoice
 primary_keyword: invoice PDF on Android
-app_cta_url: https://play.google.com/store/apps/details?id=com.doclira.invoice
+app_cta_url: https://play.google.com/store/apps/details?id=com.doclira.invoice&utm_source=doclira_website&utm_medium=organic_web&utm_campaign=website_download_cta&referrer=utm_source%3Ddoclira_website%26utm_medium%3Dorganic_web%26utm_campaign%3Dwebsite_download_cta
 image: /images/generated/how-to-create-invoice-pdf-on-android.png
 ---
 
