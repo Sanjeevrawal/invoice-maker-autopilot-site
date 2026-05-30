@@ -1,7 +1,7 @@
 {{- $description := .Params.description | default site.Params.description -}}
 {{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
 {{- $logo := site.Params.logo | default "images/doclira-icon.png" -}}
-{{- $image := $logo | absURL -}}
+{{- $image := site.Params.ogImage | default $logo | absURL -}}
 {{- with .Params.image }}{{ $image = . | absURL }}{{ end -}}
 <!doctype html>
 <html lang="{{ site.Language.Locale | default "en-US" }}">

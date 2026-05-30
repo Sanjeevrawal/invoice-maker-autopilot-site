@@ -12,6 +12,7 @@ paginate = 12
   playStoreURL = "https://play.google.com/store/apps/details?id=com.doclira.invoice"
   supportEmail = ""
   logo = "images/doclira-icon.png"
+  ogImage = "images/doclira/banner.png"
 
 [taxonomies]
   tag = "tags"

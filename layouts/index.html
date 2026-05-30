@@ -1,49 +1,30 @@
 {{ define "main" }}
-<section class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">Offline Android invoice maker</p>
-    <h1>Doclira turns service work into clean PDF invoices, estimates, quotes, and receipts.</h1>
-    <p class="hero-lede">Built for contractors, freelancers, cleaners, electricians, plumbers, mechanics, tutors, photographers, and small service teams who need a simple document workflow on their phone.</p>
+<section class="app-hero" aria-labelledby="home-title">
+  <img class="app-hero-media" src="{{ "images/doclira/banner.png" | relURL }}" alt="Doclira banner showing offline invoices, estimates, PDFs, and Android app screens" width="1794" height="876">
+  <div class="app-hero-overlay">
+    <p class="eyebrow">Offline Android document studio</p>
+    <h1 id="home-title">Doclira invoice maker for Android</h1>
+    <p>Create, organize, export, and share polished PDF invoices, estimates, quotes, and receipts from your phone.</p>
     <div class="hero-actions">
       <a class="button primary" href="{{ "download/" | relURL }}">Download on Google Play</a>
-      <a class="button secondary" href="{{ "features/" | relURL }}">Explore features</a>
-    </div>
-    <div class="trust-strip" aria-label="Doclira highlights">
-      <span>PDF export</span>
-      <span>Works offline</span>
-      <span>No login for basic use</span>
-    </div>
-  </div>
-  <div class="hero-visual" aria-label="Doclira app preview">
-    <div class="phone-shell">
-      <div class="phone-top">
-        <img src="{{ "images/doclira-icon.png" | relURL }}" alt="" width="44" height="44">
-        <div>
-          <strong>Doclira</strong>
-          <span>Invoice Maker PDF</span>
-        </div>
-      </div>
-      <div class="invoice-preview">
-        <span class="doc-label">Invoice</span>
-        <h2>Service Job #1042</h2>
-        <div class="line"><span>Labor charges</span><strong>2 hrs</strong></div>
-        <div class="line"><span>Material supplied</span><strong>1 set</strong></div>
-        <div class="line total"><span>Total</span><strong>PDF ready</strong></div>
-      </div>
-      <div class="phone-actions">
-        <span>Save</span>
-        <span>Export PDF</span>
-        <span>Share</span>
-      </div>
+      <a class="button ghost" href="#screenshots">View app screens</a>
     </div>
   </div>
 </section>
 
+<section class="seo-intro">
+  <div>
+    <p class="eyebrow">Built for mobile service work</p>
+    <h2>Turn every job into a clear business document before the details fade.</h2>
+  </div>
+  <p>Doclira is made for contractors, freelancers, cleaners, electricians, plumbers, mobile mechanics, tutors, photographers, and small service teams who need a practical Android invoice app without a complicated login-first workflow.</p>
+</section>
+
 <section class="section band">
   <div class="section-heading">
-    <p class="eyebrow">Everything in one field workflow</p>
-    <h2>Make the document you need without opening a laptop.</h2>
-    <p>Doclira keeps everyday billing documents practical: add a client, add service lines, preview the PDF, and share through WhatsApp, email, or the Android share sheet.</p>
+    <p class="eyebrow">Core document workflow</p>
+    <h2>Invoices, estimates, quotes, and receipts in one focused Android app.</h2>
+    <p>Use Doclira to add clients, save reusable services/items, preview documents, export PDFs, share through compatible Android apps, and track paid or unpaid documents.</p>
   </div>
   <div class="feature-grid">
     <a class="feature-card" href="{{ "invoice-maker/" | relURL }}">
@@ -69,6 +50,38 @@
   </div>
 </section>
 
+<section class="section product-showcase" id="screenshots">
+  <div class="section-heading row">
+    <div>
+      <p class="eyebrow">Real app screenshots</p>
+      <h2>A polished document studio made for everyday billing work.</h2>
+    </div>
+    <a class="text-link" href="{{ "download/" | relURL }}">Try Doclira</a>
+  </div>
+  <div class="screenshot-stage">
+    <figure class="screenshot-card large">
+      <img src="{{ "images/doclira/screenshot-dashboard.png" | relURL }}" alt="Doclira Android dashboard for creating invoices, estimates, quotes, receipts, and clients" loading="lazy" width="941" height="1672">
+      <figcaption>Create invoices in minutes</figcaption>
+    </figure>
+    <figure class="screenshot-card">
+      <img src="{{ "images/doclira/screenshot-documents.png" | relURL }}" alt="Doclira documents screen showing invoice drafts saved locally" loading="lazy" width="941" height="1672">
+      <figcaption>Track every document</figcaption>
+    </figure>
+    <figure class="screenshot-card">
+      <img src="{{ "images/doclira/screenshot-clients.png" | relURL }}" alt="Doclira clients screen with local reusable client details and search" loading="lazy" width="941" height="1672">
+      <figcaption>Keep clients organized</figcaption>
+    </figure>
+    <figure class="screenshot-card">
+      <img src="{{ "images/doclira/screenshot-items.png" | relURL }}" alt="Doclira items and services screen for reusable service details" loading="lazy" width="941" height="1672">
+      <figcaption>Reuse services and items</figcaption>
+    </figure>
+    <figure class="screenshot-card">
+      <img src="{{ "images/doclira/screenshot-protect.png" | relURL }}" alt="Doclira screen showing local drafts and backup guidance" loading="lazy" width="941" height="1672">
+      <figcaption>Protect local drafts</figcaption>
+    </figure>
+  </div>
+</section>
+
 <section class="section workflow">
   <div class="section-heading compact">
     <p class="eyebrow">Simple process</p>
@@ -76,7 +89,7 @@
   </div>
   <div class="steps">
     <div><strong>1</strong><h3>Choose document</h3><p>Invoice, estimate, quote, or receipt.</p></div>
-    <div><strong>2</strong><h3>Add details</h3><p>Client, saved items, service lines, notes, and totals.</p></div>
+    <div><strong>2</strong><h3>Add details</h3><p>Client, reusable items, service lines, notes, and totals.</p></div>
     <div><strong>3</strong><h3>Export PDF</h3><p>Preview the document and create a professional PDF.</p></div>
     <div><strong>4</strong><h3>Share and track</h3><p>Send through compatible apps and mark paid or unpaid.</p></div>
   </div>
