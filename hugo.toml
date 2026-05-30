@@ -13,7 +13,7 @@ paginate = 12
   supportEmail = ""
   logo = "images/doclira-icon.png"
   ogImage = "images/doclira/banner.png"
-  ga4MeasurementId = ""
+  ga4MeasurementId = "G-4BD5V8EPEE"
 
 [taxonomies]
   tag = "tags"
