@@ -44,7 +44,7 @@
   <h1>{{ .Title }}</h1>
   {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
   <div class="hero-actions">
-    <a class="button primary" href="{{ "download/" | relURL }}">Download on Google Play</a>
+    <a class="button primary" href="{{ site.Params.playStoreURL }}" target="_blank" rel="noopener">Download on Google Play</a>
     <a class="button secondary" href="{{ "blog/" | relURL }}">Read guides</a>
   </div>
 </section>
