@@ -1,59 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Invoice Maker App</title>
-		<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/</link>
-		<description>Recent content on Invoice Maker App</description>
+		<title>Doclira</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Doclira</description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>en-US</language>
 		
 		
 		
 		
 			<lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://sanjeevrawal.github.io/invoice-maker-autopilot-site/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How to create invoice PDF on Android</title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</link>
+				<link>http://localhost:1313/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</link>
 				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</guid>
+				<guid>http://localhost:1313/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</guid>
 				<description>&lt;h1 id=&#34;how-to-create-invoice-pdf-on-android&#34;&gt;How to create invoice PDF on Android&lt;/h1&gt;&#xA;&lt;h2 id=&#34;quick-answer&#34;&gt;Quick answer&lt;/h2&gt;&#xA;&lt;p&gt;You can create a clear PDF invoice, estimate, quote, or receipt on an Android phone by entering the client details, adding service line items, checking the totals, exporting the document as a PDF, and sharing it through WhatsApp, email, or the Android share sheet. This workflow is useful when you finish a job away from a desk and need to send a professional document before the details are forgotten.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title></title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/download/</link>
+				<title>Doclira Features</title>
+				<link>http://localhost:1313/features/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/download/</guid>
-				<description>&lt;h1 id=&#34;download&#34;&gt;Download&lt;/h1&gt;&#xA;&lt;p&gt;Download the Android app from Google Play: &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.example.invoiceapp&#34;&gt;https://play.google.com/store/apps/details?id=com.example.invoiceapp&lt;/a&gt;&lt;/p&gt;</description>
+				<guid>http://localhost:1313/features/</guid>
+				<description>&lt;h2 id=&#34;built-for-everyday-service-documents&#34;&gt;Built for everyday service documents&lt;/h2&gt;&#xA;&lt;p&gt;Doclira focuses on the documents small service businesses need most: invoices, estimates, quotes, and receipts. The app is designed for quick use from an Android phone, especially when work happens away from a desk.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title></title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/estimate-maker/</link>
+				<title>Doclira Use Cases</title>
+				<link>http://localhost:1313/use-cases/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/estimate-maker/</guid>
-				<description>&lt;h1 id=&#34;estimate-maker&#34;&gt;Estimate Maker&lt;/h1&gt;&#xA;&lt;p&gt;Create estimates and share PDF copies from your phone.&lt;/p&gt;</description>
+				<guid>http://localhost:1313/use-cases/</guid>
+				<description>&lt;h2 id=&#34;one-app-for-many-service-workflows&#34;&gt;One app for many service workflows&lt;/h2&gt;&#xA;&lt;p&gt;Doclira is built for people who create documents around real client work. The exact job may change, but the document flow is often the same: add the client, add the service lines, export a PDF, and share it.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title></title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/invoice-maker/</link>
+				<title>Download Doclira</title>
+				<link>http://localhost:1313/download/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/invoice-maker/</guid>
-				<description>&lt;h1 id=&#34;invoice-maker&#34;&gt;Invoice Maker&lt;/h1&gt;&#xA;&lt;p&gt;Create professional PDF invoices on Android.&lt;/p&gt;</description>
+				<guid>http://localhost:1313/download/</guid>
+				<description>&lt;h2 id=&#34;get-doclira-on-android&#34;&gt;Get Doclira on Android&lt;/h2&gt;&#xA;&lt;p&gt;Doclira is available on Google Play for Android users who need a simple mobile workflow for invoices, estimates, quotes, and receipts.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title></title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/quotation-maker/</link>
+				<title>Estimate Maker for Android</title>
+				<link>http://localhost:1313/estimate-maker/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/quotation-maker/</guid>
-				<description>&lt;h1 id=&#34;quotation-maker&#34;&gt;Quotation Maker&lt;/h1&gt;&#xA;&lt;p&gt;Create and share quote PDFs with clients.&lt;/p&gt;</description>
+				<guid>http://localhost:1313/estimate-maker/</guid>
+				<description>&lt;h2 id=&#34;prepare-estimates-before-the-work-begins&#34;&gt;Prepare estimates before the work begins&lt;/h2&gt;&#xA;&lt;p&gt;Doclira gives small service businesses a simple way to create estimates on Android. Add the client, describe the proposed work, enter service lines, preview the amount, and share a PDF copy when the client needs a clear document.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title></title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/receipt-maker/</link>
+				<title>Invoice App for Cleaners</title>
+				<link>http://localhost:1313/cleaners/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/receipt-maker/</guid>
-				<description>&lt;h1 id=&#34;receipt-maker&#34;&gt;Receipt Maker&lt;/h1&gt;&#xA;&lt;p&gt;Create receipts after payment and keep local records.&lt;/p&gt;</description>
+				<guid>http://localhost:1313/cleaners/</guid>
+				<description>&lt;h2 id=&#34;cleaning-invoices-and-estimates-on-android&#34;&gt;Cleaning invoices and estimates on Android&lt;/h2&gt;&#xA;&lt;p&gt;Cleaning businesses can use Doclira to prepare estimates before a job, invoices after a service, and receipts after payment.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Invoice App for Contractors</title>
+				<link>http://localhost:1313/contractors/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/contractors/</guid>
+				<description>&lt;h2 id=&#34;contractor-paperwork-from-the-job-site&#34;&gt;Contractor paperwork from the job site&lt;/h2&gt;&#xA;&lt;p&gt;Contractors often need to prepare documents while details are still fresh. Doclira helps you create invoices, estimates, quotes, and receipts on Android without waiting to return to a laptop.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Invoice App for Electricians and Plumbers</title>
+				<link>http://localhost:1313/electricians-plumbers/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/electricians-plumbers/</guid>
+				<description>&lt;h2 id=&#34;field-documents-for-repair-and-installation-work&#34;&gt;Field documents for repair and installation work&lt;/h2&gt;&#xA;&lt;p&gt;Electricians and plumbers often need to list labor, parts, materials, and service notes. Doclira gives you a simple Android workflow for creating a PDF document at the job site.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Invoice App for Freelancers</title>
+				<link>http://localhost:1313/freelancers/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/freelancers/</guid>
+				<description>&lt;h2 id=&#34;simple-invoices-for-freelance-work&#34;&gt;Simple invoices for freelance work&lt;/h2&gt;&#xA;&lt;p&gt;Freelancers need clear documents for projects, hourly work, sessions, and completed tasks. Doclira helps you create PDF invoices and receipts from Android and share them with clients.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Invoice App for Mobile Mechanics</title>
+				<link>http://localhost:1313/mechanics/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/mechanics/</guid>
+				<description>&lt;h2 id=&#34;mobile-mechanic-invoices-without-a-desk&#34;&gt;Mobile mechanic invoices without a desk&lt;/h2&gt;&#xA;&lt;p&gt;Mobile mechanics can use Doclira to create documents after inspections, repairs, or service visits. Add parts, labor, notes, and client details from Android, then export a PDF.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Invoice App for Tutors and Photographers</title>
+				<link>http://localhost:1313/tutors-photographers/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tutors-photographers/</guid>
+				<description>&lt;h2 id=&#34;client-documents-for-appointment-based-work&#34;&gt;Client documents for appointment-based work&lt;/h2&gt;&#xA;&lt;p&gt;Tutors and photographers often need simple documents for sessions, packages, and repeat clients. Doclira helps create PDF invoices, estimates, quotes, and receipts from Android.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Invoice Maker for Android</title>
+				<link>http://localhost:1313/invoice-maker/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/invoice-maker/</guid>
+				<description>&lt;h2 id=&#34;create-pdf-invoices-from-your-phone&#34;&gt;Create PDF invoices from your phone&lt;/h2&gt;&#xA;&lt;p&gt;Doclira helps service businesses create practical PDF invoices on Android. Add a client, add service or item lines, review the total, export a PDF, and share it through WhatsApp, email, or any compatible app in the Android share sheet.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Quote Maker for Android</title>
+				<link>http://localhost:1313/quotation-maker/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/quotation-maker/</guid>
+				<description>&lt;h2 id=&#34;send-clear-quote-pdfs-from-android&#34;&gt;Send clear quote PDFs from Android&lt;/h2&gt;&#xA;&lt;p&gt;Doclira can be used as a quote maker for small service jobs. Use it when you want to describe proposed work, line items, quantities, prices, and notes in a PDF that is easy for the client to keep.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Receipt Maker for Android</title>
+				<link>http://localhost:1313/receipt-maker/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/receipt-maker/</guid>
+				<description>&lt;h2 id=&#34;create-receipts-after-payment&#34;&gt;Create receipts after payment&lt;/h2&gt;&#xA;&lt;p&gt;Doclira helps you create receipt PDFs on Android after a client has paid. Add the client, describe the service or item, review the amount, export a PDF, and share it with the client.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

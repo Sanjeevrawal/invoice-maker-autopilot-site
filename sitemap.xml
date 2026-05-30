@@ -3,37 +3,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/</loc>
+    <loc>http://localhost:1313/tags/android-invoice/</loc>
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/blog/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/android-invoice/</loc>
+    <loc>http://localhost:1313/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</loc>
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</loc>
+    <loc>http://localhost:1313/tags/invoice-maker/</loc>
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/invoice-maker/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/pdf-invoice/</loc>
+    <loc>http://localhost:1313/tags/pdf-invoice/</loc>
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/download/</loc>
+    <loc>http://localhost:1313/audiences/</loc>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/estimate-maker/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/invoice-maker/</loc>
+    <loc>http://localhost:1313/features/</loc>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/quotation-maker/</loc>
+    <loc>http://localhost:1313/use-cases/</loc>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/receipt-maker/</loc>
+    <loc>http://localhost:1313/download/</loc>
   </url><url>
-    <loc>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/categories/</loc>
+    <loc>http://localhost:1313/estimate-maker/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cleaners/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contractors/</loc>
+  </url><url>
+    <loc>http://localhost:1313/electricians-plumbers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/freelancers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mechanics/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutors-photographers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/invoice-maker/</loc>
+  </url><url>
+    <loc>http://localhost:1313/quotation-maker/</loc>
+  </url><url>
+    <loc>http://localhost:1313/receipt-maker/</loc>
   </url>
 </urlset>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Android Invoice on Invoice Maker App</title>
-		<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/android-invoice/</link>
-		<description>Recent content in Android Invoice on Invoice Maker App</description>
+		<title>Android Invoice on Doclira</title>
+		<link>http://localhost:1313/tags/android-invoice/</link>
+		<description>Recent content in Android Invoice on Doclira</description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>en-US</language>
 		
 		
 		
 		
 			<lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/android-invoice/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/android-invoice/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How to create invoice PDF on Android</title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</link>
+				<link>http://localhost:1313/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</link>
 				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</guid>
+				<guid>http://localhost:1313/blog/2026-05-30-how-to-create-invoice-pdf-on-android/</guid>
 				<description>&lt;h1 id=&#34;how-to-create-invoice-pdf-on-android&#34;&gt;How to create invoice PDF on Android&lt;/h1&gt;&#xA;&lt;h2 id=&#34;quick-answer&#34;&gt;Quick answer&lt;/h2&gt;&#xA;&lt;p&gt;You can create a clear PDF invoice, estimate, quote, or receipt on an Android phone by entering the client details, adding service line items, checking the totals, exporting the document as a PDF, and sharing it through WhatsApp, email, or the Android share sheet. This workflow is useful when you finish a job away from a desk and need to send a professional document before the details are forgotten.&lt;/p&gt;</description>
 			</item>
 	</channel>

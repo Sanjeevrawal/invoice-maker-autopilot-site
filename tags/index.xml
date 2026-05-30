@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Tags on Invoice Maker App</title>
-		<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/</link>
-		<description>Recent content in Tags on Invoice Maker App</description>
+		<title>Tags on Doclira</title>
+		<link>http://localhost:1313/tags/</link>
+		<description>Recent content in Tags on Doclira</description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>en-US</language>
 		
 		
 		
 		
 			<lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Android Invoice</title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/android-invoice/</link>
+				<link>http://localhost:1313/tags/android-invoice/</link>
 				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/android-invoice/</guid>
+				<guid>http://localhost:1313/tags/android-invoice/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Invoice Maker</title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/invoice-maker/</link>
+				<link>http://localhost:1313/tags/invoice-maker/</link>
 				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/invoice-maker/</guid>
+				<guid>http://localhost:1313/tags/invoice-maker/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>PDF Invoice</title>
-				<link>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/pdf-invoice/</link>
+				<link>http://localhost:1313/tags/pdf-invoice/</link>
 				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://sanjeevrawal.github.io/invoice-maker-autopilot-site/tags/pdf-invoice/</guid>
+				<guid>http://localhost:1313/tags/pdf-invoice/</guid>
 				<description></description>
 			</item>
 	</channel>
